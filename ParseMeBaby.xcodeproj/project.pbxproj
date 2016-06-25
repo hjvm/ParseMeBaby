@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315C50E87F9B5EDCDF489713 /* Pods_ParseMeBaby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E8461B612EC837883C6CDB /* Pods_ParseMeBaby.framework */; };
+		740270F31D19E75B00EB02F1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740270F21D19E75B00EB02F1 /* MainTabBarController.swift */; };
+		740270F51D19EC9200EB02F1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740270F41D19EC9200EB02F1 /* CameraViewController.swift */; };
+		740270F71D19F90100EB02F1 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740270F61D19F90100EB02F1 /* PostModel.swift */; };
+		740270FB1D1A42E300EB02F1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740270FA1D1A42E300EB02F1 /* TableViewCell.swift */; };
+		740270FD1D1A44DA00EB02F1 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740270FC1D1A44DA00EB02F1 /* TableView.swift */; };
+		740270FF1D1B3BF700EB02F1 /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740270FE1D1B3BF700EB02F1 /* InfiniteScrollActivityView.swift */; };
+		740271011D1B8A3A00EB02F1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740271001D1B8A3A00EB02F1 /* DetailsViewController.swift */; };
+		740271231D1C936400EB02F1 /* MyPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740271221D1C936400EB02F1 /* MyPostsViewController.swift */; };
+		7471DB4C1D19DE2A001FAA71 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471DB4B1D19DE2A001FAA71 /* SettingsViewController.swift */; };
 		749CBB7A1D188C2600069765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CBB791D188C2600069765 /* AppDelegate.swift */; };
-		749CBB7C1D188C2600069765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CBB7B1D188C2600069765 /* ViewController.swift */; };
 		749CBB7F1D188C2600069765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749CBB7D1D188C2600069765 /* Main.storyboard */; };
 		749CBB811D188C2600069765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749CBB801D188C2600069765 /* Assets.xcassets */; };
 		749CBB841D188C2600069765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749CBB821D188C2600069765 /* LaunchScreen.storyboard */; };
+		74A6D3051D1894CA00CEFB59 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6D3041D1894CA00CEFB59 /* LoginViewController.swift */; };
+		74A6D3091D18956E00CEFB59 /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6D3081D18956E00CEFB59 /* UserClass.swift */; };
+		74A6D30B1D18AEF200CEFB59 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6D30A1D18AEF200CEFB59 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E9467ADED82EE454A835357 /* Pods-ParseMeBaby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseMeBaby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseMeBaby/Pods-ParseMeBaby.debug.xcconfig"; sourceTree = "<group>"; };
+		740270F21D19E75B00EB02F1 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		740270F41D19EC9200EB02F1 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		740270F61D19F90100EB02F1 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostModel.swift; path = ParseMeBaby/PostModel.swift; sourceTree = "<group>"; };
+		740270FA1D1A42E300EB02F1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ParseMeBaby/TableViewCell.swift; sourceTree = "<group>"; };
+		740270FC1D1A44DA00EB02F1 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		740270FE1D1B3BF700EB02F1 /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfiniteScrollActivityView.swift; path = ParseMeBaby/InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
+		740271001D1B8A3A00EB02F1 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		740271221D1C936400EB02F1 /* MyPostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPostsViewController.swift; sourceTree = "<group>"; };
+		7471DB4B1D19DE2A001FAA71 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		749CBB761D188C2600069765 /* ParseMeBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseMeBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		749CBB791D188C2600069765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		749CBB7B1D188C2600069765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		749CBB7E1D188C2600069765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		749CBB801D188C2600069765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		749CBB831D188C2600069765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		749CBB851D188C2600069765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A6D3041D1894CA00CEFB59 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		74A6D3081D18956E00CEFB59 /* UserClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
+		74A6D30A1D18AEF200CEFB59 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A8E8461B612EC837883C6CDB /* Pods_ParseMeBaby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseMeBaby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C546E469916990774A63028D /* Pods-ParseMeBaby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseMeBaby.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseMeBaby/Pods-ParseMeBaby.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315C50E87F9B5EDCDF489713 /* Pods_ParseMeBaby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		740270F91D1A40D000EB02F1 /* Secondary Classes */ = {
+			isa = PBXGroup;
+			children = (
+				740270FE1D1B3BF700EB02F1 /* InfiniteScrollActivityView.swift */,
+				740270FA1D1A42E300EB02F1 /* TableViewCell.swift */,
+				740270F61D19F90100EB02F1 /* PostModel.swift */,
+				740270FC1D1A44DA00EB02F1 /* TableView.swift */,
+			);
+			name = "Secondary Classes";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		749CBB6D1D188C2600069765 = {
 			isa = PBXGroup;
 			children = (
 				749CBB781D188C2600069765 /* ParseMeBaby */,
 				749CBB771D188C2600069765 /* Products */,
+				D5A548D486C2B1314AADDF01 /* Pods */,
+				AA2DACC687EE98E835FCF324 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +96,54 @@
 			isa = PBXGroup;
 			children = (
 				749CBB791D188C2600069765 /* AppDelegate.swift */,
-				749CBB7B1D188C2600069765 /* ViewController.swift */,
+				740270F21D19E75B00EB02F1 /* MainTabBarController.swift */,
 				749CBB7D1D188C2600069765 /* Main.storyboard */,
+				740270F91D1A40D000EB02F1 /* Secondary Classes */,
+				74A6D3071D18952700CEFB59 /* User Class */,
+				74A6D3061D1894D600CEFB59 /* ViewControllers */,
 				749CBB801D188C2600069765 /* Assets.xcassets */,
 				749CBB821D188C2600069765 /* LaunchScreen.storyboard */,
 				749CBB851D188C2600069765 /* Info.plist */,
 			);
 			path = ParseMeBaby;
+			sourceTree = "<group>";
+		};
+		74A6D3061D1894D600CEFB59 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				740271221D1C936400EB02F1 /* MyPostsViewController.swift */,
+				740271001D1B8A3A00EB02F1 /* DetailsViewController.swift */,
+				740270F41D19EC9200EB02F1 /* CameraViewController.swift */,
+				7471DB4B1D19DE2A001FAA71 /* SettingsViewController.swift */,
+				74A6D3041D1894CA00CEFB59 /* LoginViewController.swift */,
+				74A6D30A1D18AEF200CEFB59 /* HomeViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74A6D3071D18952700CEFB59 /* User Class */ = {
+			isa = PBXGroup;
+			children = (
+				74A6D3081D18956E00CEFB59 /* UserClass.swift */,
+			);
+			name = "User Class";
+			sourceTree = "<group>";
+		};
+		AA2DACC687EE98E835FCF324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8E8461B612EC837883C6CDB /* Pods_ParseMeBaby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A548D486C2B1314AADDF01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E9467ADED82EE454A835357 /* Pods-ParseMeBaby.debug.xcconfig */,
+				C546E469916990774A63028D /* Pods-ParseMeBaby.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 749CBB881D188C2600069765 /* Build configuration list for PBXNativeTarget "ParseMeBaby" */;
 			buildPhases = (
+				805F339A736E77AC23898753 /* [CP] Check Pods Manifest.lock */,
 				749CBB721D188C2600069765 /* Sources */,
 				749CBB731D188C2600069765 /* Frameworks */,
 				749CBB741D188C2600069765 /* Resources */,
+				E4C65BA4B05287F222B28ED9 /* [CP] Embed Pods Frameworks */,
+				15D42CFF8BE64A60F66C968D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +215,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15D42CFF8BE64A60F66C968D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseMeBaby/Pods-ParseMeBaby-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		805F339A736E77AC23898753 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C65BA4B05287F222B28ED9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseMeBaby/Pods-ParseMeBaby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		749CBB721D188C2600069765 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749CBB7C1D188C2600069765 /* ViewController.swift in Sources */,
+				74A6D30B1D18AEF200CEFB59 /* HomeViewController.swift in Sources */,
+				740270FD1D1A44DA00EB02F1 /* TableView.swift in Sources */,
+				740270F71D19F90100EB02F1 /* PostModel.swift in Sources */,
+				740271231D1C936400EB02F1 /* MyPostsViewController.swift in Sources */,
+				74A6D3051D1894CA00CEFB59 /* LoginViewController.swift in Sources */,
+				740270FB1D1A42E300EB02F1 /* TableViewCell.swift in Sources */,
+				740270FF1D1B3BF700EB02F1 /* InfiniteScrollActivityView.swift in Sources */,
+				740270F31D19E75B00EB02F1 /* MainTabBarController.swift in Sources */,
 				749CBB7A1D188C2600069765 /* AppDelegate.swift in Sources */,
+				740270F51D19EC9200EB02F1 /* CameraViewController.swift in Sources */,
+				74A6D3091D18956E00CEFB59 /* UserClass.swift in Sources */,
+				7471DB4C1D19DE2A001FAA71 /* SettingsViewController.swift in Sources */,
+				740271011D1B8A3A00EB02F1 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +391,7 @@
 		};
 		749CBB891D188C2600069765 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9467ADED82EE454A835357 /* Pods-ParseMeBaby.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ParseMeBaby/Info.plist;
@@ -258,6 +403,7 @@
 		};
 		749CBB8A1D188C2600069765 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C546E469916990774A63028D /* Pods-ParseMeBaby.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ParseMeBaby/Info.plist;
@@ -286,6 +432,7 @@
 				749CBB8A1D188C2600069765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
